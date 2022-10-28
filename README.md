@@ -1,4 +1,4 @@
-# C-.NET-Notes
+# C# & .NET Notes
 » My C# &amp; .NET Note taking.
 
 ✱*.｡:｡✱*.:｡✧*.｡✰*.:｡✧*.｡:｡*.｡✱

@@ -44,7 +44,7 @@
 	6. Add async and await (syntactic sugar) at the repository functions.
 
 
-<h1><span style="font-size: 0.8em;">💕</span> Handling secrets & Health checks</h1>
+<h1><span style="font-size: 0.8em;">💕</span> Handling secrets</h1>
 ♦️ .NET Secrets manager for storing passwords and other sensitive info, instead of adding it in the appsettings.json.
 
 <h1><span style="font-size: 0.8em;">💕</span> Health checks</h1>

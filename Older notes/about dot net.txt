@@ -1,0 +1,53 @@
+
+####### ABOUT .NET
+
+(.NET SDK = .NET Software Development Kit)
+
+.NET assembly -> Before software developers can run their code, they must first compile it. The .NET compiler is a program that converts the source code into a special language called intermediate language (IL). The .NET compiler saves the IL code into a file called a .NET assembly. 
+.NET runtime -> Is an execution environment for your compiled .NET assembly. In other words, the .NET runtime is what executes and manages your application as it runs on a host operating system
+
+NOTE: Sometimes people mistakenly think that the C# programming language is .NET. However, C# and .NET are distinct. C# is a programming language syntax. As part of the syntax, you can reference and call methods defined in .NET code libraries, or assemblies. Furthermore, you'll use the C# compiler that's installed with the .NET SDK to create an assembly from your C# code. The .NET runtime runs .NET assemblies. 
+
+-> CODE LIBRARY: A code library encapsulates functionality for a specific purpose into a single assembly. For .NET, thousands of libraries are available. These libraries can be first-party or third-party, and can be commercial or open source. The libraries provide a vast array of functionality you can use in your applications. You merely reference those assemblies and call the methods you need. In this way, as a developer, you build on the work of other software developers. You save time and energy because you don't have to build and maintain every feature yourself.
+
+-> APPLICATION FRAMEWORK: An application framework combines several related libraries, along with starter projects, file templates, code generators, and other tools. You can use these resources to build entire applications for a specific purpose. These application frameworks are known as app models. For example, popular .NET application frameworks are available for app models like web development, desktop and mobile development, and game development.
+
+.NET SDK: You can install the .NET SDK directly or by installing Visual Studio 2022. The .NET SDK preinstalls a comprehensive set of libraries and application frameworks called the base class library. You can use this library of code in your programs regardless of the platform or app models you want to build. For other third-party libraries, developers use package managers like NuGet to find and integrate code libraries from package repositories like the NuGet Gallery.
+
+### .NET TOOLS
+Software developers rely on tools to write code, add references to code libraries, compile code, and debug code. This section describes several .NET tools you'll use to build .NET applications.
+
+Visual Studio 2022 is the Microsoft flagship development environment. Millions of developers use it to build .NET applications. A graphical user interface (that includes menus, windows, visual designers, dialog boxes, and wizards) guides developers through the application development process. Visual Studio 2022 is available in three editions: Community, Professional, and Enterprise. Each edition includes different tools and is licensed for different purposes.
+
+Developers who prefer a command-line workflow might use a combination of Visual Studio Code, the world's most popular code editor, and the .NET command-line interface, also known as the .NET CLI.
+
+Furthermore, you can choose from numerous first-party and third-party tools for many advanced .NET use cases. Options include code profilers, unit test runners, and code coverage analyzers.
+
+You can find other .NET tools for other scenarios. For example, later in this module you'll work with Try .NET. You'll use this browser-based interface to write simple applications that will help you learn the C# programming language.
+
+### MICROSOFT DOCUMENTATION, TUTOIALS AND TRAINING
+
+- Microsoft docs (Provides quick-start tutorials and definitive reference documentation.): https://docs.microsoft.com/en-us/
+
+- Patterns and practice (Helps developers and software architects find solutions to common application development needs. Resources often transcend the low-level details of writing code and delve into choosing products and services that enable seemingly infinite scalable architectures.
+): https://docs.microsoft.com/en-us/azure/architecture/
+
+- .NET Videos (Provides video tutorials from the .NET team. These videos walk developers through common usage scenarios.
+): https://dotnet.microsoft.com/learn/videos
+
+- Microsft Learn (Provides hands-on labs to help you build your skills by combining instruction, exercises, media, knowledge checks, and a means of tracking your progress.
+): https://docs.microsoft.com/en-us/learn/paths/csharp-first-steps/
+
+### COMMUNITY:
+- Learn: .NET community members host live online events and in-person meet-ups. They build open-source software, participate in Q&A forums, and record video tutorials. They write books and blog posts that help you learn and get unstuck when you're not sure what to do next.
+
+- Contribute: .NET is open source on GitHub (https://github.com/dotnet). The projects in this repository are managed by the .NET Foundation. This independent organization is dedicated to growing a trusted, commercially friendly, open-source ecosystem around the .NET development platform. In this repository, you can share your unique perspective and voice to help others learn.
+
+### ABOUT .NET VERSIONS
+The original .NET Framework was first released in early 2002. Since then, many updates and much more functionality have followed. After years of enhancements and new features, the original .NET Framework, especially key code libraries, grew significantly.
+
+After 2002, Microsoft worked to make a version of .NET that had cross-platform compatibility. The goal was to allow developers to write one code base and use it across macOS, Linux, and Windows operating systems.
+
+Through these efforts, .NET Core was introduced around 2014. Microsoft has maintained the original .NET Framework, but new features and improvements are reserved for .NET Core. Core was later dropped from the name. The next major versions are .NET 5, .NET 6, .NET 7, and so on. Versions are generally released each November.
+
+Why is the .NET history worth mentioning? Because you'll likely find blog posts, videos, and source code that targets the original .NET Framework. In some cases, the instructions or code still work, but in other cases, you might need to make adjustments to fit the new .NET.
